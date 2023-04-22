@@ -4,7 +4,7 @@
 
 ## This turns ChatGPT into a prompt generating machine that acceps only predefined inputs and responds with only predefined outputs. 💬
 
-The [ChatGPT Midjourney Prompt Generator](https://www.chatgpt-prompts.net/prompt/use-chatgpt-to-generate-midjourney-prompts/) was created by .
+The [ChatGPT Midjourney Prompt Generator](https://www.chatgpt-prompts.net/prompt/use-chatgpt-to-generate-midjourney-prompts/) was created by ![ChatGPT-Prompts.net](https://www.chatgpt-prompts.net/).
 
 ### The ChatGPT Midjourney Prompt Generator Prompt:
 
