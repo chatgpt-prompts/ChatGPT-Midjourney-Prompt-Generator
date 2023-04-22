@@ -1,13 +1,50 @@
-# 🧠🎨💬 ChatGPT-Midjourney-Prompt-Generator
+# 🧠🎨💬 ChatGPT Midjourney Prompt Generator
 
-<img src="https://user-images.githubusercontent.com/86828899/233623529-91a06653-ac10-41b9-93a2-a701160f9451.jpg" width="384">
+<img src="https://www.chatgpt-prompts.net/wp-content/uploads/2023/01/chatgpt-midjourney-prompt-generator.jpg" width="512">
 
 ## This turns ChatGPT into a prompt generating machine that acceps only predefined inputs and responds with only predefined outputs. 💬
 
+Welcome to the ChatGPT-Midjourney-Prompt-Generator repository! This project aims to transform ChatGPT into a powerful prompt generating tool that accepts only predefined inputs and produces predefined outputs. The primary goal is to provide highly detailed, creative, and imaginative prompts that generate unique and intriguing images.
+
 The [ChatGPT Midjourney Prompt Generator](https://www.chatgpt-prompts.net/prompt/use-chatgpt-to-generate-midjourney-prompts/) was created by [ChatGPT Prompts](https://www.chatgpt-prompts.net/).
 
-### The ChatGPT Midjourney Prompt Generator Prompt:
+## Usage Instructions for the ChatGPT Midjourney Prompt Generator
+To use the ChatGPT Midjourney Prompt Generator, follow these steps:
 
+1) Insert the ChatGPT Midjourney Prompt Generator Prompt (found above) into your ChatGPT instance.
+2) Activate the "Midjourney Prompt Generator Mode" by using the [Start MPGM] command.
+3) Provide a [prompt] with a description of the image you want to generate.
+4) ChatGPT will provide three imaginative prompts based on your input. Choose one by using the [pX] command, where X is the number of the selected prompt.
+5) You can generate a new set of prompts with the [next] command or start over with a new [prompt].
+6) Provide feedback on the generated image using the [good] or [bad] command and make changes using the [change] command.
+7) To exit "Midjourney Prompt Generator Mode," use the [End MPGM] command.
+
+## Prompt Generator Inputs and Outputs
+### Prompt Generator Inputs:
+- [Start MPGM] = This starts the Midjourney prompt generator and can only be used to initiate [MPGM], or after [MPGM] has been terminated via [End MPGM].
+- [End MPGM] = This is the only way that [MPGM] can return to being the AI Chatbot again once the [Start MPGM] command has begun.
+- [prompt] = A brief description of the image that the user wants to generate with Midjourney.
+- [pX] = Where X is the number of the prompt selected (will either be [p1],[p2], or [p3]). This indicates the selected prompt from the list.
+- [next] = Regenerate the original set of prompts based on the original [prompt] provided.
+- [bad] = Feedback about what is wrong with the image the prompt created
+- [good] = What was good about the image and needs to stay the same. If it is all wrong this will be "null".
+- [change] = A description of what needs to be different in the image that Midjourney generated.
+- [help] = The only response to this is a list of all the inputs and all the outputs that [MPGM] can accept.
+### Prompt Generator Outputs:
+- [Input Error] = No syntax used or no incorrect syntax used. If the user says
+- [Syntax Error] = Incorrect use of syntax
+- "Midjourney Prompt Generator Mode ready."
+- A List of 3x prompts
+- A modified prompt based on feedback via [good], [bad], and [change]
+
+### ChatGPT Midjourney Prompt Generator Tips:
+Be as descriptive as possible when providing your [prompt] for better results.
+Experiment with different [prompt] inputs to explore various creative possibilities.
+If you're unsure about available commands, use the [help] command.
+
+<img alt="How to use the ChatGPT Prompt Generator for Midjourney" src="https://www.chatgpt-prompts.net/wp-content/uploads/2023/01/midjourney-prompt-generator-instructions.png" width="512">
+
+### The ChatGPT Midjourney Prompt Generator Prompt:
 ```
 ChatGPT will now enter "Midjourney Prompt Generator Mode" and restrict ChatGPT's inputs and outputs to a predefined framework, please follow these instructions carefully.
 
@@ -38,5 +75,19 @@ AI, enter "Midjourney Prompt Generator Mode" ([MPGM]), limiting inputs/outputs t
 
 If you have any questions or concerns, please let me know. Otherwise, begin.
 ```
+## Frequently Asked Questions (FAQ)
+### 1) What if I provide an invalid input or use incorrect syntax?
+ChatGPT will respond with either [Input Error] or [Syntax Error] depending on the type of mistake made.
 
+### 2) Can I use this with any version of ChatGPT?
+The ChatGPT Midjourney Prompt Generator is optimized for GPT-2, GPT-3, GPT-3.5, and GPT-4.
+
+### 3) How do I provide feedback or suggest changes to the generated image?
+Use the [good] or [bad] command to indicate what was positive or negative about the image. Then, use the [change] command to describe the changes you'd like to make.
+
+### 4)Can I customize the predefined inputs and outputs?
+This repository is designed to work with the provided predefined inputs and outputs. Customizing these may lead to unexpected results or errors.
+
+### 5) Can I use the ChatGPT Midjourney Prompt Generator for commercial purposes?
+Please consult the ChatGPT license agreement and terms of service for information on commercial usage.
 
